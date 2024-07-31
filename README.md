@@ -50,8 +50,23 @@ https://hub.docker.com/layers/benn1440/python_app/Latest/images/sha256:1f4a2f43a
 
 # Deploy the application to a Kubernetes cluster:
 
+* Spin up Minikube for Local development
+
+  ![image](https://github.com/user-attachments/assets/ec2d751e-37ce-4806-bf12-254897dc36b8)
+
 Create a Kubernetes manifest file for a Deployment to deploy the Docker image.
-Deploy the app to your minikube cluster
+# Deploy the app to minikube cluster
+
+ $ kubectl apply -f deployment.yaml <br>
+ 
+![image](https://github.com/user-attachments/assets/ef8cb00f-4ee6-416f-9a14-9425a11fa364)
+
+# Kubectl describe deployment
+
+$ kubectl describe deployment python-app-deployment <br>
+
+![image](https://github.com/user-attachments/assets/5f37baa1-18ec-4fa2-8a8c-d433bc947b43)
+
 Create a Kubernetes Service of type ClusterIP to expose the application.
 
 # Test the deployment:
