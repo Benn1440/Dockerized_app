@@ -14,21 +14,26 @@ Write a Dockerfile to containerize the application. <br>
 
 Build the Docker image and run it locally to ensure it works correctly.<br>
 
-<img width="1091" alt="Screenshot 2024-07-31 at 16 49 27" src="https://github.com/user-attachments/assets/f1abe01b-2309-4936-95b6-af47ffb60560"><br>
+<img width="1004" alt="Screenshot 2024-07-31 at 19 48 57" src="https://github.com/user-attachments/assets/295ea4e8-1da5-4d79-b878-f1457112aefd"><br>
+
+# Docker ps
+
+![image](https://github.com/user-attachments/assets/e2b1fc12-7fbc-4b0b-98f8-0712447b0a4b)
+
 
 Tag it and Push the Docker image to a container registry (e.g., Docker Hub).
 
-![image](https://github.com/user-attachments/assets/779118c6-0a0c-451d-bc9c-d474e193928c)<br>
+![image](https://github.com/user-attachments/assets/be896f44-f5c4-470f-8df8-431679d7dd73)<br>
+
 
 # Running Container on Docker hub
 
-![image](https://github.com/user-attachments/assets/bcec1c21-39a0-4e86-a98c-6f6d38e54a74)
+![image](https://github.com/user-attachments/assets/da2a9574-e799-49a1-bcb8-8c80c0bae85c)
+
 
 # Docker Inspect
 
-![image](https://github.com/user-attachments/assets/099a811e-7ea6-450e-aba6-564041f0f076)
-
-
+![image](https://github.com/user-attachments/assets/e94ae8da-17d2-49e5-b4c3-e6e7c32e007c)
 
 
 # Deploy the application to a Kubernetes cluster:
