@@ -21,6 +21,10 @@ Tag it and Push the Docker image to a container registry (e.g., Docker Hub).
 
 ![image](https://github.com/user-attachments/assets/bcec1c21-39a0-4e86-a98c-6f6d38e54a74)
 
+# Docker Inspect
+
+![image](https://github.com/user-attachments/assets/099a811e-7ea6-450e-aba6-564041f0f076)
+
 
 
 
