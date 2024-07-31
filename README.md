@@ -95,5 +95,26 @@ $ kubectl get svc
 
 # Test the deployment:
 
-Port-forward your service to a localhost port and access it through your web browser.
-Verify that the application displays the expected message.
+* Port-forward the service to a local host port and access it through a web browser.
+
+  $ kubectl port-forward service/python-app-service 8080:80
+
+# Errors and Troubleshooting
+
+When I copy the localhost port and input on the browser, the Pod lost connection and throws this error
+
+  ![image](https://github.com/user-attachments/assets/f2df6301-bd56-4b44-b138-7c5a59ce8eab)<br><br>
+
+To resolve this, I noticed that the target port on my deployment and service was different from the port my app was running (5500), this was corrected and the deployment and service were reapplied
+
+$ kubectl apply -f deployment.yaml
+$ kubectl apply -f service.yaml <br><br>
+
+![image](https://github.com/user-attachments/assets/99022e86-40c1-4c9d-9c39-6922ff460e57)
+
+# Verify that the application displays the expected message.
+
+Application running on Port forwarded port<br><br>
+
+![image](https://github.com/user-attachments/assets/91835fd9-f551-43bf-a0d2-b6dd32c11974)
+
