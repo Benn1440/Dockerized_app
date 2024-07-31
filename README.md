@@ -2,20 +2,31 @@
 
 This is a simple Python application that displays a welcome message.
 
-<img width="565" alt="Screenshot 2024-07-31 at 12 33 53" src="https://github.com/user-attachments/assets/523e76d6-3277-48f3-a4e2-e9b805a81aac">
+![image](https://github.com/user-attachments/assets/e8c78b07-e374-484a-844b-d509e55dacc8)
+
+<img width="813" alt="Screenshot 2024-07-31 at 18 51 03" src="https://github.com/user-attachments/assets/7a293b7f-dbdc-478a-a050-dcf2c3b91d86">
 
 
 # Dockerize the application:
+
 
 Write a Dockerfile to containerize the application. <br>
 
 Build the Docker image and run it locally to ensure it works correctly.<br>
 
-<img width="1142" alt="Screenshot 2024-07-31 at 12 59 05" src="https://github.com/user-attachments/assets/399d20d5-5f40-48b5-85e8-9d985bc49e7a">
+<img width="1091" alt="Screenshot 2024-07-31 at 16 49 27" src="https://github.com/user-attachments/assets/f1abe01b-2309-4936-95b6-af47ffb60560"><br>
 
 Tag it and Push the Docker image to a container registry (e.g., Docker Hub).
 
-<img width="1188" alt="Screenshot 2024-07-31 at 13 01 04" src="https://github.com/user-attachments/assets/2bddd5a5-c791-43c0-9147-3730c31a07f0">
+![image](https://github.com/user-attachments/assets/779118c6-0a0c-451d-bc9c-d474e193928c)<br>
+
+# Running Container on Docker hub
+
+![image](https://github.com/user-attachments/assets/bcec1c21-39a0-4e86-a98c-6f6d38e54a74)
+
+# Docker Inspect
+
+![image](https://github.com/user-attachments/assets/099a811e-7ea6-450e-aba6-564041f0f076)
 
 
 
