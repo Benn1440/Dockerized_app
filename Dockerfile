@@ -1,18 +1,27 @@
 # Alpine Python image from Docker Hub
-FROM alpine:3.20
+FROM python:3.9-slim
+# FROM ubuntu:16.04
 
-# Working directory in the container
+# Working directory inside the container
 WORKDIR /app
 
-# Copy the current directory contents into the container at /app
+# Copy code into container
 COPY . /app
 
-# Install any needed packages specified in requirements.txt
-# (Assuming no additional dependencies, you can skip this step if none)
-# RUN pip install --no-cache-dir -r requirements.txt
+# Build the app
+# RUN pip install --no-cache-dir -r requirements.txt 
 
-# Make port 80 available outside this container
-EXPOSE 80
+# # stage for a lightweight image
+# FROM alpine:3.20
+
+# # Working directory in the container
+# WORKDIR /app
+
+# # Copy the current directory contents into the container at /app
+# COPY . /app
+
+# Make port 8080 available outside this container
+EXPOSE 8080
 
 # Run main.py when the container launches
-CMD ["python", "main.py"]
+CMD ["python3", "main.py"]
