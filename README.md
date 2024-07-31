@@ -86,7 +86,12 @@ Pod in running state after using the appropriate Image; changes were made on the
 ![image](https://github.com/user-attachments/assets/cac78e26-f707-4c2f-9cb6-15a88ea168cd)
 
 
-Create a Kubernetes Service of type ClusterIP to expose the application.
+# Create a Kubernetes Service of type ClusterIP to expose the application.
+
+$ kubectl get svc
+
+![image](https://github.com/user-attachments/assets/f820997b-491b-4cfd-80fd-7d3212f3f0c8)
+
 
 # Test the deployment:
 
