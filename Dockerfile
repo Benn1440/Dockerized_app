@@ -1,14 +1,20 @@
-# Alpine Python image from Docker Hub
+# Use an official Python runtime as a parent image
 FROM python:3.9-slim
 
-# Working directory inside the container
+# Set the working directory in the container
 WORKDIR /app
 
-# Copy code into container
+# Copy the current directory contents into the container at /app
 COPY . /app
 
-# Make port 8080 available outside this container
-EXPOSE 8080
+# Install any needed packages specified in requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
-# Run main.py when the container launches
-CMD ["python3", "main.py"]
+# Make port 5000 available to the world outside this container
+EXPOSE 5500
+
+# Define environment variable
+ENV NAME World
+
+# Run app.py when the container launches
+CMD ["python3", "app.py"]
