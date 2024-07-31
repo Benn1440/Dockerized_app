@@ -7,9 +7,18 @@ This is a simple Python application that displays a welcome message.
 
 # Dockerize the application:
 
-Write a Dockerfile to containerize the application.
-Build the Docker image and run it locally to ensure it works correctly.
+Write a Dockerfile to containerize the application. <br>
+
+Build the Docker image and run it locally to ensure it works correctly.<br>
+
+<img width="1142" alt="Screenshot 2024-07-31 at 12 59 05" src="https://github.com/user-attachments/assets/399d20d5-5f40-48b5-85e8-9d985bc49e7a">
+
 Tag it and Push the Docker image to a container registry (e.g., Docker Hub).
+
+<img width="1188" alt="Screenshot 2024-07-31 at 13 01 04" src="https://github.com/user-attachments/assets/2bddd5a5-c791-43c0-9147-3730c31a07f0">
+
+
+
 
 # Deploy the application to a Kubernetes cluster:
 
