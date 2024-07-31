@@ -4,8 +4,11 @@ This is a simple Python application that displays a welcome message.
 
 ![image](https://github.com/user-attachments/assets/e8c78b07-e374-484a-844b-d509e55dacc8)
 
+<img width="813" alt="Screenshot 2024-07-31 at 18 51 03" src="https://github.com/user-attachments/assets/7a293b7f-dbdc-478a-a050-dcf2c3b91d86">
+
 
 # Dockerize the application:
+
 
 Write a Dockerfile to containerize the application. <br>
 
