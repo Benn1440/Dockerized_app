@@ -45,9 +45,6 @@ https://hub.docker.com/layers/benn1440/python_app/Latest/images/sha256:1f4a2f43a
 
 ![image](https://github.com/user-attachments/assets/b9370067-c5fa-4df1-9483-07f9cac7d986)
 
-
-
-
 # Deploy the application to a Kubernetes cluster:
 
 * Spin up Minikube for Local development
@@ -66,6 +63,23 @@ Create a Kubernetes manifest file for a Deployment to deploy the Docker image.
 $ kubectl describe deployment python-app-deployment <br>
 
 ![image](https://github.com/user-attachments/assets/5f37baa1-18ec-4fa2-8a8c-d433bc947b43)
+
+# Errors and Troubleshooting
+
+When I try to list the Pods created by the deployment, I noticed the pods were on ImagePullBackOff,
+
+$ kubectl get pods -l app=python-app
+
+<img width="888" alt="image" src="https://github.com/user-attachments/assets/10d1a9e8-c00d-4967-be3a-80a72081b72a">
+
+To resolve this I had to check the Image name that was deployed and noticed a slight difference in the name 
+
+<img width="1013" alt="Screenshot 2024-07-31 at 21 23 00" src="https://github.com/user-attachments/assets/f8564bf3-bb03-4673-a5ee-0db978ad3e3f">
+
+Pod in running state after using the appropriate Image <br>
+
+![image](https://github.com/user-attachments/assets/cac78e26-f707-4c2f-9cb6-15a88ea168cd)
+
 
 Create a Kubernetes Service of type ClusterIP to expose the application.
 
