@@ -81,7 +81,7 @@ To resolve this I had to check the Image name that was deployed and noticed a sl
 
 <img width="1013" alt="Screenshot 2024-07-31 at 21 23 00" src="https://github.com/user-attachments/assets/f8564bf3-bb03-4673-a5ee-0db978ad3e3f">
 
-Pod in running state after using the appropriate Image <br>
+Pod in running state after using the appropriate Image; changes were made on the deployment file and then redeployed.<br> <br>
 
 ![image](https://github.com/user-attachments/assets/cac78e26-f707-4c2f-9cb6-15a88ea168cd)
 
