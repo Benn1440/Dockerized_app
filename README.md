@@ -51,6 +51,11 @@ https://hub.docker.com/layers/benn1440/python_app/Latest/images/sha256:1f4a2f43a
 
   ![image](https://github.com/user-attachments/assets/ec2d751e-37ce-4806-bf12-254897dc36b8)
 
+* Minikube was spinned up with docker driver
+  
+<img width="1430" alt="image" src="https://github.com/user-attachments/assets/64550e48-f17f-4621-8752-2e348edcd7d7">
+
+
 Create a Kubernetes manifest file for a Deployment to deploy the Docker image.
 # Deploy the app to minikube cluster
 
