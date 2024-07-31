@@ -26,7 +26,7 @@ Tag it and Push the Docker image to a container registry (e.g., Docker Hub).
 ![image](https://github.com/user-attachments/assets/be896f44-f5c4-470f-8df8-431679d7dd73)<br>
 
 
-# Running Container on Docker hub
+# Running Container on Docker Desktop
 
 ![image](https://github.com/user-attachments/assets/da2a9574-e799-49a1-bcb8-8c80c0bae85c)
 
@@ -34,6 +34,15 @@ Tag it and Push the Docker image to a container registry (e.g., Docker Hub).
 # Docker Inspect
 
 ![image](https://github.com/user-attachments/assets/e94ae8da-17d2-49e5-b4c3-e6e7c32e007c)
+
+# Tag Image and push to Docker Hub with Link
+
+https://hub.docker.com/layers/benn1440/python_app/Latest/images/sha256:1f4a2f43a5a2269bc46e280a5154e8eacd26d2271e2d50fea7fe371bd42bd55b?uuid=a6cfa028-74f7-47b1-8a34-2d8176dae4e3%0A <br><br>
+
+<img width="724" alt="image" src="https://github.com/user-attachments/assets/544acc12-d3f7-43cc-a859-5d6b37d1be40"> <br><br>
+
+![image](https://github.com/user-attachments/assets/c7a4c9c1-3313-44dd-8514-100574a02e26)
+
 
 
 # Deploy the application to a Kubernetes cluster:
