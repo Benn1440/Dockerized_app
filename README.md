@@ -1,4 +1,4 @@
-# Create a simple web application:
+# Create a simple web application, Dockerize it, and run it on Minikube Kubernetes cluster.
 
 This is a simple Python application that displays a welcome message.
 
@@ -113,6 +113,8 @@ $ kubectl apply -f service.yaml <br><br>
 ![image](https://github.com/user-attachments/assets/99022e86-40c1-4c9d-9c39-6922ff460e57)
 
 # Verify that the application displays the expected message.
+
+* https://kubernetes.io/docs/tasks/access-application-cluster/port-forward-access-application-cluster/
 
 Application running on Port forwarded port<br><br>
 
