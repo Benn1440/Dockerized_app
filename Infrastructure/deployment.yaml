@@ -17,3 +17,9 @@ spec:
         image: benn1440/python_app:Latest
         ports:
         - containerPort: 5500
+      env:
+      - name: Welcome_Message
+        valueFrom:
+           configMapKeyRef:
+              name: python-app-config
+              key: Welcome_message
