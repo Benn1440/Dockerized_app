@@ -120,3 +120,7 @@ Application running on Port forwarded port<br><br>
 
 ![image](https://github.com/user-attachments/assets/91835fd9-f551-43bf-a0d2-b6dd32c11974)
 
+# Implementing secrets
+
+https://kubernetes.io/docs/concepts/configuration/secret/
+
