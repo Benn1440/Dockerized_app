@@ -23,4 +23,15 @@ spec:
            configMapKeyRef:
               name: python-app-config
               key: Welcome_message
-      - name: python
+      - name: Python-aws-cred
+          valueFrom:
+           secret:
+             secretName: python-app-secret
+             key: AWS_Cred
+      # - name: DB_PASSWORD
+      #     valueFrom:
+      #       secretKeyRef:
+      #         name: python-app-secret
+      #         key: DB_PASSWORD
+
+      
